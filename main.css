@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+/* for Home Page */
+
+header h1 {
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    font-style: italic;
+    color: brown;
+    text-shadow: 0  2px  4px rgba(0, 0, 0, 0.3);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(253, 241, 208, 0.336);
+    border-radius: 15px;
+    width: 95%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-left: 23%;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(136, 82, 12);
+    font-weight: 600;
+    font-family: cursive;
+}
+
+ul a:hover {
+    background-color: rgba(255, 162, 101, 0.692);
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+header .icons {
+    background-color: rgba(255, 162, 101, 0.692);
+    border-radius: 50px;
+    padding: 8px 8px;
+}
+
+/* for About Page */
+
+.About {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.About .cls1 h4 {
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive ;
+    color: rgb(201, 15, 15);
+}
+
+.About .cls1 h2 {
+    font-size: 100px;
+    color: rgb(107, 28, 28);
+    text-shadow:  0  2px  4px rgba(0, 0, 0, 0.3);
+    font-weight: 550;
+}
+
+.About .cls1 p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.432);
+    max-width: 450px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.About .cls1 h5 {
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive ;
+    color: rgb(122, 19, 19);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.About .img img {
+    margin-right: 40px;
+    width: 450px;
+}
+
+
+/* for Flavors Page */
+
+
+.Flavors {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 320px;
+    background: #ffe6e8;
+    border-radius: 15px;
+    padding: 30px 25px;
+    box-shadow: 0 4px 8px rgba(185, 183, 183, 0.5);
+    transition: 0.3s;
+}
+
+.card:nth-child(2) {
+    background: #faefd9;
+}
+
+.card:nth-child(3) {
+    background: #f8ecee;
+}
+
+.icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 29px;
+    color: #312424;
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+
+p {
+    color: #686565;
+    font-family: cursive;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 14px;
+}
+
+
+/* for Components Page */
+
+
+.cls3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 85%;
+    background-color: #d7fdf5e0;
+    border-radius: 15px;
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.image {
+    flex: 1;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.image img {
+    width: 350px;
+}
+
+.text h3 {
+    color: #941515;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive ;
+}
+
+.text h2 {
+    font-size: 50px;
+    margin: 10px 0 20px;
+    color: #3b2b2b;
+    font-family: Georgia, serif;
+}
+
+.text p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.text ul {
+    display: inline;
+    list-style: none;
+    padding: 0;
+}
+
+.text li {
+    margin: 18px 0 ;
+    text-decoration: underline;
+    color: #8d1f3a;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+
+/* for Shop Page */
+
+
+.Shop {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.box {
+    width: 530px;
+    background: #ffe6e6;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(185, 183, 183, 0.5);
+}
+
+.box:nth-child(2) {
+    background: #ffedca;
+}
+
+.box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 25px;
+}
+
+.content h4 {
+    font-size: 32px;
+    color: #3d2b2b;
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+
+.content p {
+    font-size: 17px;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.content button {
+    background: #ffffff;
+    color: #8d5a63;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.content button a {
+    font-family: cursive;
+    text-decoration: none;
+    font-weight: 600;
+    color: #8d1f3a;
+}
+
+.content button:hover {
+    background: #ff6f91;
+}
+
+
+/* ================= Responsive For Mobile ================= */
+
+@media (max-width: 768px) {
+
+    header{
+        flex-direction: column;
+        padding: 20px;
+        width: 90%;
+    }
+
+    header h1{
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    ul{
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .About{
+        flex-direction: column;
+        text-align: center;
+        margin: 40px 20px;
+    }
+
+    .About .cls1 h2{
+        font-size: 55px;
+    }
+
+    .About .cls1 h4{
+        font-size: 30px;
+    }
+
+    .About .img img{
+        width: 260px;
+        margin-top: 25px;
+    }
+
+    .Flavors{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .card{
+        width: 85%;
+    }
+
+    .cls3{
+        flex-direction: column;
+        width: 85%;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    .image{
+        margin: 0;
+    }
+
+    .image img{
+        width: 260px;
+        max-width: 100%;
+    }
+
+    .text h2{
+        font-size: 35px;
+    }
+
+    .Shop{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .box{
+        width: 90%;
+    }
+
+    .content h4{
+        font-size: 25px;
+    }
+
+}
